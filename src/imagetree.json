@@ -1,0 +1,46 @@
+{
+  "imageTreeRoot" : {
+    "drink": {
+      "image": "drink.png",
+      "children": {}
+    },
+    "meal": {
+      "image": "meal.png",
+      "children": {}
+    },
+    "potty": {
+      "image" : "potty.png",
+      "children": {}
+    },
+    "shower": {
+      "image": "shower.png",
+      "children": {}
+    },
+    "clothes": {
+      "image": "clothes.png",
+      "children": {
+        "sweater": {
+          "image": "sweater.png",
+          "children": {}
+        },
+        "socks": {
+          "image": "socks.png",
+          "children": {}
+        }
+      }
+    },
+    "stoplight": {
+      "image": "stoplight.png",
+      "children": {
+        "stop": {
+          "image": "stop.png",
+          "children": {}
+        },
+        "go": {
+          "image": "go.png",
+          "children": {}
+        }
+      }
+    }
+  }
+}
