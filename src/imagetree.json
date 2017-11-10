@@ -41,6 +41,61 @@
           "children": {}
         }
       }
+    },
+    "thermo": {
+      "image": "thermo.png",
+      "children": {
+        "stop": {
+          "image": "hot.png",
+          "children": {}
+        },
+        "go": {
+          "image": "cold.png",
+          "children": {}
+        }
+      }
+    },
+    "electronics": {
+      "image": "electronics.png",
+      "children": {
+        "television": {
+          "image": "television.png",
+          "children": {}
+        },
+        "phone": {
+          "image": "phone.png",
+          "children": {}
+        },
+        "tablet": {
+          "image": "tablet.png",
+          "children": {}
+        },
+        "music": {
+          "image": "music.png",
+          "children": {}
+        }
+      }
+    },
+    "sleep": {
+      "image": "sleep.png",
+      "children": {}
+    },
+    "toothbrush": {
+      "image": "toothbrush.png",
+      "children": {}
+    },
+    "house": {
+      "image": "house.png",
+      "children": {
+        "kitchen": {
+          "image": "oven.png",
+          "children": {}
+        },
+        "bedroom": {
+          "image": "bed.png",
+          "children": {}
+        }
+      }
     }
   }
 }
