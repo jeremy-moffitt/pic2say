@@ -31,6 +31,11 @@ class App extends Component {
     });
   }
 
+  speak(text){
+    let msg = new SpeechSynthesisUtterance(text);
+    window.speechSynthesis.speak(msg);
+  }
+
   clickClass(item, currentMap){
     let cssClass = "col-md-3 col-sm-6 selectionTile";
     if(currentMap[item].children && Object.keys(currentMap[item].children).length > 0){
@@ -46,6 +51,10 @@ class App extends Component {
       onClick = () => {
         this.addKeyPath(item);
       };
+    } else {
+      onClick = () => {
+        this.speak(item);
+      }
     }
 
     return onClick;

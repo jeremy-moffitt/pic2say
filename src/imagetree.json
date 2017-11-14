@@ -66,11 +66,11 @@
     "thermo": {
       "image": "thermo.png",
       "children": {
-        "stop": {
+        "hot": {
           "image": "hot.png",
           "children": {}
         },
-        "go": {
+        "cold": {
           "image": "cold.png",
           "children": {}
         }
@@ -99,11 +99,11 @@
           "image": "music.png",
           "children": {}
         },
-        "volumeup": {
+        "louder": {
           "image": "volumeup.png",
           "children": {}
         },
-        "volumedown": {
+        "quieter": {
           "image": "volumedown.png",
           "children": {}
         }
