@@ -10,21 +10,42 @@
     },
     "potty": {
       "image" : "potty.png",
-      "children": {}
-    },
-    "shower": {
-      "image": "shower.png",
-      "children": {}
+      "children": {
+        "pee": {
+          "image": "pee.png",
+          "children": {}
+        },
+        "poo": {
+          "image": "poo.png",
+          "children": {}
+        },
+        "toothbrush": {
+          "image": "toothbrush.png",
+          "children": {}
+        },
+        "shower": {
+          "image": "shower.png",
+          "children": {}
+        }
+      }
     },
     "clothes": {
       "image": "clothes.png",
       "children": {
+        "blanket": {
+          "image": "blanket.png",
+          "children": {}
+        },
         "sweater": {
           "image": "sweater.png",
           "children": {}
         },
         "socks": {
           "image": "socks.png",
+          "children": {}
+        },
+        "shoes": {
+          "image": "shoes.png",
           "children": {}
         }
       }
@@ -70,18 +91,26 @@
           "image": "tablet.png",
           "children": {}
         },
+        "alarmclock": {
+          "image": "alarmclock.png",
+          "children": {}
+        },
         "music": {
           "image": "music.png",
+          "children": {}
+        },
+        "volumeup": {
+          "image": "volumeup.png",
+          "children": {}
+        },
+        "volumedown": {
+          "image": "volumedown.png",
           "children": {}
         }
       }
     },
     "sleep": {
       "image": "sleep.png",
-      "children": {}
-    },
-    "toothbrush": {
-      "image": "toothbrush.png",
       "children": {}
     },
     "house": {
@@ -94,8 +123,71 @@
         "bedroom": {
           "image": "bed.png",
           "children": {}
+        },
+        "outdoors": {
+          "image": "outdoors.png",
+          "children": {}
+        }
+
+      }
+    },
+    "medicine": {
+      "image": "medicine.png",
+      "children": {
+        "eyedrops": {
+          "image": "eyedrops.png",
+          "children": {}
         }
       }
+    },
+    "numbers": {
+      "image": "numbers.png",
+      "children": {
+        "1": {
+          "image": "number1.png",
+          "children": {}
+        },
+        "2": {
+          "image": "number2.png",
+          "children": {}
+        },
+        "3": {
+          "image": "number3.png",
+          "children": {}
+        },
+        "4": {
+          "image": "number4.png",
+          "children": {}
+        },
+        "5": {
+          "image": "number5.png",
+          "children": {}
+        },
+        "6": {
+          "image": "number6.png",
+          "children": {}
+        },
+        "7": {
+          "image": "number7.png",
+          "children": {}
+        },
+        "8": {
+          "image": "number8.png",
+          "children": {}
+        },
+        "9": {
+          "image": "number9.png",
+          "children": {}
+        },
+        "zero": {
+          "image": "number0.png",
+          "children": {}
+        }
+      }
+    },
+    "pencil": {
+      "image": "pencil.png",
+      "children": {}
     }
   }
 }
