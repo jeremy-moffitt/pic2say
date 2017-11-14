@@ -1,3 +1,18 @@
+# pic2say is a ReactJS app for communicating basic ideas through pointing at on-screen pictures
+
+pic2say started as a SUSE Hackweek project.  I needed something to hack on, and was simultaneously
+trying to help out a family member who recently suffered a stroke. I thought that a webpage with
+flash-card like tiles that could be pointed to would be an effective way to communicate ideas
+at times when speech is difficult or impossible
+
+HTML5 supported browsers include text-to-speech support, which will say the name of the clicked
+tile (if it is the final leaf in the selection tree).
+
+To install pic2say, clone the repo, run npm install (if npm is not installed, install npm first),
+then run `npm start` . This will start the app running on port 3000 on the localhost.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
