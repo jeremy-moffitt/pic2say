@@ -188,6 +188,18 @@
     "pencil": {
       "image": "pencil.png",
       "children": {}
+    },
+    "wheelchair": {
+      "image": "wheelchair.png",
+      "children": {}
+    },
+    "walk": {
+      "image": "walk.png",
+      "children": {}
+    },
+    "cane": {
+      "image": "cane.png",
+      "children": {}
     }
   }
 }
