@@ -137,6 +137,14 @@
         "eyedrops": {
           "image": "eyedrops.png",
           "children": {}
+        },
+        "glasses": {
+          "image": "glasses.png",
+          "children": {}
+        },
+        "sunglasses": {
+          "image": "sunglasses.png",
+          "children": {}
         }
       }
     },
