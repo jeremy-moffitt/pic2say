@@ -8,6 +8,43 @@
       "image": "meal.png",
       "children": {}
     },
+    "breakfast": {
+      "image": "cerealos.png",
+      "children": {
+        "eggs": {
+          "image": "eggs.png",
+          "children": {}
+        },
+        "cheese": {
+          "image": "cheese.png",
+          "children": {}
+        },
+        "coffee": {
+          "image": "coffee.png",
+          "children": {}
+        },
+        "orange juice": {
+          "image": "orangejuice.png",
+          "children": {}
+        },
+        "cereal": {
+          "image": "cerealos.png",
+          "children": {}
+        },
+        "banana": {
+          "image": "banana.png",
+          "children": {}
+        },
+        "sausage": {
+          "image": "sausage.png",
+          "children": {}
+        },
+        "bacon": {
+          "image": "bacon.png",
+          "children": {}
+        }
+      }
+    },
     "potty": {
       "image" : "potty.png",
       "children": {
@@ -207,6 +244,10 @@
     },
     "cane": {
       "image": "cane.png",
+      "children": {}
+    },
+    "christmas tree": {
+      "image": "christmastree.png",
       "children": {}
     }
   }
