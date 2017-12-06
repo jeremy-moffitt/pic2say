@@ -19,6 +19,14 @@
           "image": "cheese.png",
           "children": {}
         },
+        "toast": {
+          "image": "toast.png",
+          "children": {}
+        },
+        "banana": {
+          "image": "banana.png",
+          "children": {}
+        },
         "coffee": {
           "image": "coffee.png",
           "children": {}
@@ -29,10 +37,6 @@
         },
         "cereal": {
           "image": "cerealos.png",
-          "children": {}
-        },
-        "banana": {
-          "image": "banana.png",
           "children": {}
         },
         "sausage": {
